@@ -1,0 +1,212 @@
+#header{
+	background:url(../images/header-bg.jpg) top repeat-x;
+	position:relative
+}
+.header-side{
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	background:url(../images/header-side.png) center no-repeat;
+	width:164px;
+	height:110px
+}
+h1#logo{
+	position:absolute;
+	left:0;
+	table-layout:0;
+	z-index:3
+}
+h1#logo a{
+	display:block;
+	width:179px;
+	height:150px;
+	background:url(../images/logo.png) center center no-repeat;
+	overflow:hidden;
+	text-indent:-999em;
+	margin:0 13em;
+	outline:none;
+	text-decoration:none
+}
+/* top-nav.css*/
+#top-nav-wrap{
+	float:right;
+	margin:2.8em 1em 0;
+	clear:right;
+	position:relative;
+	z-index:3
+}
+#top-nav{
+	float:right
+}
+#top-nav li{
+	float:left;
+	font-size:14px;
+	margin:0
+}
+#top-nav li li{
+	font-size:11px;
+	float:none
+}
+#top-nav > li{
+	background:url(../images/nav_divider.png) left bottom no-repeat transparent;
+	padding:0 0 0 1px;
+	float:left
+}
+#top-nav > li:first-child{
+	background:none
+}
+#top-nav  > li  > a{
+	color:#50350a;
+	font-size:14px;
+	font-weight:600;
+	text-decoration:none; 
+	padding:0 10px 0 0;
+	text-align:center
+}
+#top-nav  > li  > a,#top-nav > li > a span{display:block}
+#top-nav  > li > a:hover,#top-nav  > li > a:active,#top-nav  > li > a:focus,#top-nav  > li:hover > a{
+	background:#82c8da;
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	border-radius:5px 5px 0 0
+}
+#top-nav  > li > a:hover span,#top-nav  > li > a:active span,#top-nav  > li > a:focus span,#top-nav > li:hover > a span{
+	cursor:pointer;
+	color:#fff
+}
+#top-nav  > li > a span{
+	height:30px;
+	line-height:30px;
+	padding:0 0 0 10px
+}
+#pic-player{
+	padding-top:110px
+}
+#demo {
+	padding-top:10px;
+	overflow:hidden;
+	border:0;
+	width: 930px;
+}
+#demo img {
+	border: 3px solid #F2F2F2;
+}
+#indemo {
+	float: left;
+	width: 1600%
+}
+#demo1 {
+	float: left;
+}
+#demo2 {
+	float: left;
+}
+#header .titles{
+	background:url(../images/header-bottom-edge.png) bottom repeat-x;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:85px;
+	z-index:1;
+	padding:30px 2em 0
+}
+.titles .title{
+	font-family:"Philosopher","Trebuchet MS",Arial,Helvetica,sans-serif
+}
+.homepage #header .title{
+	background:none
+}
+#header .titles .title.big{
+	font-size:2.5em;
+	line-height:1.2em
+}
+#header .titles .title.small{
+	font-size:1.5em;
+	line-height:1.2em
+}
+#pic-player{
+	padding-top:110px
+}
+#main-content{
+	background:#f0e9d7 url(../images/content-slice.jpg) right top repeat-y
+}
+.page-intro{
+	margin:1.5em 2em
+}
+.block .content{
+	padding:1.5em 2em .75em;
+	position:relative
+}
+.block p{
+	padding:5px 0;
+	margin:0;
+	position:relative
+}
+.block .content img.image{
+	border:1px solid #A28e79;
+	padding:1px
+}
+#main-content .subtitle{
+	padding:.5em 1em
+}
+#main-content .subtitle a{
+	color:#513015!important;
+	padding:0!important
+}
+#main-content .splashed{
+	border-top:1px solid #c5bdae;
+	padding:.5em 1em;
+	line-height:1em;
+	background:#dcd3c1;
+	position:relative
+}
+#main-content .listing.grid li{
+	margin:0;
+	padding:0;
+	float:left;
+	width:50%
+}
+#main-content .listing.grid li a.image{
+	float:left;
+	margin:0 1em 0 0;
+	display:block;
+	position:relative
+}
+#main-content .listing.grid li.even{clear:left}
+#main-content .listing.grid li div{padding:.5em 0}
+#main-content .listing.grid li > div{
+	border-top:1px solid #C5BDAE;
+	padding-top:1em
+}
+#main-content .listing.grid li:first-child > div,#main-content .listing.grid li:first-child + li > div{border:none}
+#main-content .listing.grid li.odd div{margin-left:.5em}
+#main-content .listing.grid li.even div{
+	margin-right:.5em
+}
+#main-content .listing.grid li p{
+	margin:0;
+	padding:.5em 0;
+	line-height:1.2em
+}
+.listing p.brief{position:static}
+.listing li > div{position:relative}
+<!-- sidebar -->
+/*#sidebar{
+	float:left;
+}
+.sider-block{
+	position:relative;
+	left:15px;
+	margin-bottom:2em
+}*/
+#footer{
+	background:#06648c url(../images/footer-bg.png) top repeat-x;
+	padding:1em 0;
+	float:right;
+	margin-right:2em;
+	color:#ccdfe6;
+	font-size:1em;
+	padding:.5em 0
+}

@@ -1,0 +1,64 @@
+html{
+	height:100%;
+	background:#125c81 url(../images/content-bg.jpg) left top repeat-x
+}
+body{
+	background:url(../images/pixel_bg.png) left top repeat;
+	min-height:100%;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	color:#666666;
+	line-height:1.3em
+}
+#wrap{
+	width:930px;
+	padding:0 15px;
+	margin:0 auto;
+	position:relative
+}
+p{
+	margin:.5em 0;
+	padding:0;
+	line-height:20px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px
+}
+img{
+	border:0
+}
+a:link,a:visited{
+	color:#666666;
+	text-decoration:none
+}
+a:hover,a:focus,a:active{
+	text-decoration:underline;
+}
+a img{
+	border:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:bold;
+	color:#513015;
+	margin:0;
+	padding:0
+}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+	color:#513015;
+	text-decoration:none
+}
+h1{font-size:1.5em}
+h2{font-size:1.33em}
+h3{font-size:1.16em}
+h4{font-size:1em}
+h5{font-size:.91em}
+h6{font-size:.83em}
+ul,ol,dl{
+	margin:0;
+	padding:0
+}
+ul li,ol li{
+	margin:.5em 0;
+	padding:0;
+	list-style:none
+}
